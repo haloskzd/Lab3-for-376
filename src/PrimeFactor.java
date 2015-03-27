@@ -15,6 +15,10 @@ public class PrimeFactor {
 		} else if (inputnum == 6) {
 			list.add(2);
 			list.add(3);
+		} else if (inputnum == 8) {
+			list.add(2);
+			list.add(2);
+			list.add(2);
 		}
 		return list;
 	}
