@@ -10,7 +10,7 @@ public class PrimeFactorsTest {
 	@Test
 	public void testNum1() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(1);
+		//list.add(1);
 		assertEquals(list, PrimeFactor.generate(1));
 	}
 }
