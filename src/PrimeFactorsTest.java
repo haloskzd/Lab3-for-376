@@ -60,4 +60,14 @@ public class PrimeFactorsTest {
 		list.add(3);
 		assertEquals(list, PrimeFactor.generate(9));
 	}
+	
+	@Test
+	public void testNum325115() {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(5);
+		list.add(7);
+		list.add(7);
+		list.add(1327);
+		assertEquals(list, PrimeFactor.generate(325115));
+	}
 }
