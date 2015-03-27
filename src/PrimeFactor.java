@@ -9,6 +9,9 @@ public class PrimeFactor {
 			list.add(2);
 		} else if (inputnum == 3) {
 			list.add(3);
+		} else if (inputnum == 4) {
+			list.add(2);
+			list.add(2);
 		}
 		return list;
 	}
