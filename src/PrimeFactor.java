@@ -5,8 +5,9 @@ public class PrimeFactor {
 	
 	public static ArrayList<Integer> generate (int inputnum) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		
-		//list.add(1);
+		if(inputnum > 1) {
+			list.add(2);
+		}
 		return list;
 	}
 }
