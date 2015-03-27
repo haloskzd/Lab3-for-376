@@ -43,4 +43,13 @@ public class PrimeFactorsTest {
 		list.add(3);
 		assertEquals(list, PrimeFactor.generate(6));
 	}
+	
+	@Test
+	public void testNum8() {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(2);
+		list.add(2);
+		assertEquals(list, PrimeFactor.generate(8));
+	}
 }
