@@ -13,10 +13,18 @@ public class PrimeFactorsTest {
 		//list.add(1);
 		assertEquals(list, PrimeFactor.generate(1));
 	}
+	
 	@Test
 	public void testNum2() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(2);
 		assertEquals(list, PrimeFactor.generate(2));
+	}
+	
+	@Test
+	public void testNum3() {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(3);
+		assertEquals(list, PrimeFactor.generate(3));
 	}
 }
