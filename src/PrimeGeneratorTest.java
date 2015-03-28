@@ -19,4 +19,14 @@ public class PrimeGeneratorTest {
 		assertEquals(list, PrimeFactorGenerator.generateList(4));
 	}
 	
+	@Test
+	public void testNum10() {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(3);
+		list.add(5);
+		list.add(7);
+		assertEquals(list, PrimeFactorGenerator.generateList(10));
+	}
+	
 }
